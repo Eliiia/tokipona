@@ -20,12 +20,16 @@ a {
 .content {
     width: 30%;
     margin: auto;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 @media screen and (orientation:portrait) {
     .content {
         width: 90%;
     }
+}
+
+blockquote {
+    border-left: 1px solid #7c6f64;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
 }
