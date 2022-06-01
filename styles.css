@@ -1,0 +1,31 @@
+/*
+--platinum: #e8e8e8ff;
+--silver: #bfbfbfff;
+--manatee: #96939bff;
+--mango-tango: #fc814aff;
+--raisin-black: #1e1a1dff;
+*/
+
+body {
+    background-color: #1e1a1d;
+    color: #e8e8e8ff;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+a {
+    color: #96939bff;
+}
+
+.content {
+    width: 30%;
+    margin: auto;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+@media screen and (orientation:portrait) {
+    .content {
+        width: 90%;
+    }
+}
