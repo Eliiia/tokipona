@@ -38,3 +38,12 @@ blockquote {
 ul {
     list-style-type: none;
 }
+
+.vocab {
+    border-color: #bfbfbfff;
+    border-style: solid;
+}
+
+.vocab-int {
+    margin: 20px;
+}
